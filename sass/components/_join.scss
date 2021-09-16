@@ -5,8 +5,9 @@
 .signup-form__text {
   margin: 0;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
+
+  font-weight: $font-bold;
+  font-size: $font-size-base;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -20,6 +21,6 @@
   &:focus,
   &:hover {
     color: #ffffff;
-    background-color: var(--accent-text-color);
+    background-color: $color-accent;
   }
 }
