@@ -44,14 +44,14 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * (var(--margin-projects)));
-  margin-bottom: calc(-1 * (var(--margin-projects)));
+  margin-right: calc(-1 * #{$margin-projects});
+  margin-bottom: calc(-1 * #{$margin-projects});
 }
 
 .projects-list__item {
-  flex-basis: calc((100% / 3) - var(--margin-projects));
-  margin-right: var(--margin-projects);
-  margin-bottom: var(--margin-projects);
+  flex-basis: calc(100% / 3 - #{$margin-projects});
+  margin-right: $margin-projects;
+  margin-bottom: $margin-projects;
 }
 /* .project-item {
   width: calc((100% - 60px) / 3);

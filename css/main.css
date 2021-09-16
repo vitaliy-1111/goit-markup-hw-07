@@ -765,15 +765,15 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: calc(-1 * (var(--margin-projects)));
-  margin-bottom: calc(-1 * (var(--margin-projects)));
+  margin-right: calc(-1 * 30px);
+  margin-bottom: calc(-1 * 30px);
 }
 
 .projects-list__item {
-  -ms-flex-preferred-size: calc((100% / 3) - var(--margin-projects));
-      flex-basis: calc((100% / 3) - var(--margin-projects));
-  margin-right: var(--margin-projects);
-  margin-bottom: var(--margin-projects);
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 /* .project-item {
